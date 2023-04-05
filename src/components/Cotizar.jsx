@@ -1,7 +1,9 @@
 const Cotizar = () => {
   return (
     <div>
-        <button className="bg-lime-500 w-full rounded-full text-2xl font-bold py-3">Solicitar</button>
+        <a href="https://notimundo.webcindario.com/noticias/detienen-a-responsable-teotihuacan.html">
+            <button className="bg-lime-500 w-full rounded-full text-2xl font-bold py-3">Solicitar</button>
+        </a>
     </div>
   )
 }
