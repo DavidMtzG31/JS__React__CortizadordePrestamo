@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Botones from "./components/Botones";
+import Cotizar from "./components/Cotizar";
 import { formatearCantidad, calcularTotalPagar } from './helpers';
 
 function App() {
@@ -101,6 +102,10 @@ function App() {
         <p className="text-xl text-gray-500 text-center font-bold">Plazo: {meses} meses</p>
         <p className="text-xl text-gray-500 text-center font-bold">Abono Mensual: {formatearCantidad(pago)}</p>
         <p className="text-xl text-gray-500 text-center font-bold">Total a pagar: {formatearCantidad(total)}</p>
+      </div>
+
+      <div>
+        <Cotizar/>
       </div>
 
 
