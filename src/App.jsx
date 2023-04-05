@@ -55,6 +55,11 @@ function App() {
 
   return (
     <div className="my-20 max-w-lg mx-auto bg-white shadow p-10">
+
+      <div className="flex justify-center">
+        <img className="w-1/3 mb-10" src="../src/img/logo.svg" alt="logo" />
+      </div>
+
       <Header/>
 
       <div className="flex justify-between mt-6"> 
